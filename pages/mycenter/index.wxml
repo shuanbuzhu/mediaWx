@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <image src='https://api.imjad.cn/interface/img/PixivProxy.php?url=https://i.pximg.net/c/540x540_70/img-master/img/2020/03/15/00/18/44/80122024_p0_master1200.jpg'></image>
+</view>
+<!-- 
+<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->

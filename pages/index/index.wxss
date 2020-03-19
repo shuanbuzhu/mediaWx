@@ -1,0 +1,98 @@
+/**index.wxss**/
+.container{
+    padding:0 20rpx;
+
+}
+.swipeWrap{
+	border:1rpx solid #FFD700;
+	height:280rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.classList{
+	padding-top:20rpx;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+.classList view{
+	width:20%;
+}
+.classList .className{
+	width:80rpx;
+	height:80rpx;
+	line-height:80rpx;
+	text-align:center;
+	border:1rpx solid #FFD700;
+	border-radius: 50%;
+	margin:10rpx auto;
+	font-size:28rpx;
+}
+
+
+.page-section-spacing{
+  margin-top: 20rpx;
+  font-size:30rpx;
+  font-weight: bold;
+  height:80rpx;
+  line-height:80rpx;
+
+  
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+
+.scroll-view-item_H{
+  display: inline-block;
+  margin:0 24rpx;
+}
+.scroll-view-item_H text{
+	border-bottom:1px solid #fff;
+	padding-bottom:6rpx;
+}
+
+
+.dataCssStyle{
+	display:-webkit-flex;
+	display:-moz-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: flex-start;
+}
+.dataCssStyle view{
+	width:31%;
+	margin:1%;
+	font-size:24rpx;
+	text-align: center;
+}
+.dataCssStyle image{
+	width:100%;
+	height:200rpx;
+}
+
+.jumpPage{
+	height:100rpx;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding:0 40rpx;
+	font-size:30rpx;
+	line-height:100rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+

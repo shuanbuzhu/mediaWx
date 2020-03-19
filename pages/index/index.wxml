@@ -1,0 +1,88 @@
+<!--index.wxml-->
+<view class="container">
+<!-- 轮播图的页面结构 -->
+    <swiper class='swipeWrap' indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <swiper-item wx:for="{{imgArr}}" wx:key="index">
+          <view>
+            <navigator url="{{item.link}}" hover-class="navigator-hover">  
+              <image style='width:100%' src="{{item.url}}" class="slide-image" >  </image>
+            </navigator>
+          </view>
+        </swiper-item>
+    </swiper>
+<!-- 分类的页面结构 -->
+    <view class='classList'>
+      <view wx:for='{{classListArr}}' wx:key="index">
+         <view class='className'>
+          <text bindtap='classListData' id='{{item.id}}'>{{item.name}}</text>
+        </view> 
+      </view>
+    </view>
+<!-- 内容展示的页面结构 -->
+    <view>
+      <view class="page-section-spacing">
+        <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+          <view class="scroll-view-item_H" wx:if="{{childClassId==39104}}" wx:for="{{childClassList['39104']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+          </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==39110}}" wx:for="{{childClassList['39110']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+          </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==39092}}" wx:for="{{childClassList['39092']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+           </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==4}}" wx:for="{{childClassList['4']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+            </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==1}}" wx:for="{{childClassList['1']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+            </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==39120}}" wx:for="{{childClassList['39120']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+            </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==39126}}" wx:for="{{childClassList['39126']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+          </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==18}}" wx:for="{{childClassList['18']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+           </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==5}}" wx:for="{{childClassList['5']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+          </view>
+          <view class="scroll-view-item_H" wx:if="{{childClassId==39087}}" wx:for="{{childClassList['39087']}}" wx:key="index">
+           <text bindtap='childClassData' id='{{item.id}}'>{{item.name}}</text>
+          </view>
+        </scroll-view>
+      </view>
+
+      <view class='dataCssStyle'>
+        <view wx:for="{{showDataArr}}" wx:key="index">
+          <image bindtap='jumpDegistPage' id="{{item.album.albumID}}" src="{{item.album.cover.urls[0].url}}"></image>
+          <text>{{item.album.name}}</text>
+        </view>
+      </view>
+
+      <view class='jumpPage'>
+        <text bindtap="upPageFun"   id='{{pageNum}},{{childSonClassId}},{{childClassId}}'>上一页</text>
+        <text>第{{pageNum}}页 共{{total}}页</text>
+        <text bindtap="downPageFun" id='{{pageNum}},{{childSonClassId}},{{childClassId}}'>下一页</text>
+      </view>
+
+    </view>
+    <audio id="myAudio" src="" loop ></audio>
+
+</view>
+
+<!-- 
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+ -->

@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="topfix">
+		<view class='headtop'>
+			<image src="{{degistTopHead.cover.urls[2].url}}"></image>
+		   <view>{{degistTopHead.name}}</view>
+		   <view>{{degistTopHead.desc}}</view>
+		</view>
+		<view class='headMid'>
+			<view class='playPauseWrap' wx:if="{{playOnWrap}}">
+				<image class='playPause' bindtap='pauseFun' wx:if="{{!playOn}}" src='../images/play.png'></image>
+				<image class='playPause' bindtap='plaYFun' wx:if="{{playOn}}" src='../images/pause.png'></image>
+			</view>
+			<button style="background-color:#6495ED;width:20px;height:100rpx;float:right;position:relative;" open-type="share">
+				<image class='share' open-type="share" src='../images/share.png'></image> 
+			</button> 
+			<image class='playImg' bindtap="jumpHomeFun" src='../images/home.png'></image>
+			<view style='width:400rpx;height:100rpx;overflow: hidden;'>{{audioIndex}}:{{audioName}}</view>
+
+		</view>
+	</view>
+
+	<view class='headBot'>
+    	<view   wx:for="{{degistDataArr}}" wx:key='index' bindtap="playFun" id='{{item.audioURL.urls[1].url}},{{index+1}},{{item.name}}'>
+			{{index+1}}:{{item.name}}
+	    </view>
+	</view>
+
+	<view class='jumpPage'>
+	  <text bindtap="uppageFun" id="{{albumId}},{{pageNum+1}}">上一页</text>
+	  <text>第{{pageNum+1}}页 共{{dataTotal}}条</text>
+	  <text bindtap="downpageFun" id="{{albumId}},{{pageNum+1}},{{dataTotal}}">下一页</text>
+	</view>
+	<audio id="myAudio" src="" loop ></audio>
+</view>

@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+    <view style='height:100rpx;line-height:100rpx;'>
+      <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+        <view class="scroll-view-item_H"  wx:for="{{fixedDataArr}}" wx:key="index">
+            <text bindtap='mvSearchFun' id='{{item.name}}'>{{item.name}}</text>
+        </view>
+      </scroll-view>
+    </view>
+    
+      <view class='searchInfo'>
+        <button bindtap="searchFun" id="{{searchData}}" style='height:80rpx;width:120rpx;font-size:26rpx;background-color:#6699FF;padding:0;margin:0;line-height:80rpx;'>我喜欢</button>
+        <input bindinput="inputValueFun" style='width:70%;height:80rpx;text-align: center'/>
+      </view>
+    
+    <view wx:for='{{resultDataArr}}' wx:key="index">
+      <view class='mvWrap' >
+        <video wx:if="{{videoIndex==index}}" src="{{videoUrl}}" id="myVedio{{index}}"  loop controls autoplay style="width:100%;height:400rpx;"></video>
+        <image wx:else src="{{item.cover}}" bindtap='playVedioFun' id="{{item.id}},{{index}}"></image>
+        <view>{{item.name}}</view>
+      </view>
+    </view>
+
+      <view class='jumpPage'>
+        <text bindtap="removeMoreFun" id="{{page}},{{mvCount}},{{searchData}},{{nowPageNum}}" >减五条</text>
+        <text>第{{nowPageNum}}条 共{{mvCount}}条</text>
+        <text bindtap="addMroeFun" id="{{page}},{{mvCount}},{{searchData}},{{nowPageNum}}">加五条</text>
+      </view>
+
+</view>
+<!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->

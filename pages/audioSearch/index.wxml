@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class="container">
+
+	<view class="topfix">
+		 <view class='searchInfo'>
+			<button bindtap="searchFun" id="{{searchData}}" style='height:80rpx;width:120rpx;font-size:26rpx;background-color:#6699FF;padding:0;margin:0;line-height:80rpx;'>我喜欢</button>
+			<input bindinput="inputValueFun" value='{{searchData}}' style='width:70%;height:80rpx;text-align: center'/>
+	    </view>
+    
+		<view class='headtop'>
+			<image  src="{{picUrl}}"></image>
+			<view>{{arName}}</view>
+			<view>{{name}}</view>
+			<view class='buttonWrap'>
+				<image class='playImg' bindtap="jumpHomeFun"  src='../images/home.png'></image>
+				<button style="background-color:#6495ED;width:20px;height:100rpx;float:right;position:relative;" open-type="share">
+					<image class='share' open-type="share" src='../images/share.png'></image> 
+				</button> 
+				
+				<view class='playPauseWrap' wx:if='{{playPauseOn}}'>
+					<image class='playPause' bindtap="pauseFun" wx:if="{{playOn}}"  src='../images/play.png'></image>
+					<image class='playPause' bindtap="plaYFun" wx:if="{{!playOn}}"  src='../images/pause.png'></image>
+				</view>
+			</view>
+
+		</view>
+	</view>
+
+	<view class='headBot'>
+    	<view   wx:for="{{audioArr}}" wx:key='index' bindtap="playFun" id='{{item.id}},{{item.al.picUrl}},{{item.ar[0].name}},{{item.name}}'>
+			{{index+1}}:{{item.name}}
+	    </view>
+	</view>
+
+	<view class='jumpPage'>
+	  <text bindtap='upPageFun' id="{{searchData}},{{pageNum}}">上一页</text>
+	  <text>第{{pageNum+1}}页 共{{songCount}}条</text>
+	  <text bindtap='downPageFun' id="{{searchData}},{{pageNum}},{{songCount}}">下一页</text>
+	</view>
+
+	<audio id="myAudio" src="" loop ></audio>
+</view>
+<!-- 	<view class='jumpPage'>
+	  <text bindtap="uppageFun" id="{{albumId}},{{pageNum+1}}">上一页</text>
+	  <text>第{{pageNum+1}}页 共{{dataTotal}}条</text>
+	  <text bindtap="downpageFun" id="{{albumId}},{{pageNum+1}},{{dataTotal}}">下一页</text>
+	</view> -->
+
+
+
+
+
+
+
+
+
+
+

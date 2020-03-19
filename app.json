@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/audioSearch/index",
+    
+    "pages/img/index",
+    "pages/mycenter/index",
+    "pages/vedio/index",
+    "pages/audioDegist/index",
+
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "记录流",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"#FFD700",
+    "list":[
+      {
+        "text":"音频",
+        "pagePath":"pages/index/index",
+        "selectedIconPath":"./pages/images/1.png",
+        "iconPath":"./pages/images/1-1.png"
+      },
+      {
+        "text":"图片",
+        "pagePath":"pages/img/index",
+        "selectedIconPath":"./pages/images/1.png",
+        "iconPath":"./pages/images/1-1.png"
+      },
+      {
+        "text":"视频",
+        "pagePath":"pages/vedio/index",
+        "selectedIconPath":"./pages/images/2.png",
+        "iconPath":"./pages/images/2-2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

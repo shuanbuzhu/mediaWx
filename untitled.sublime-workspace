@@ -1,0 +1,635 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"currentTarget"
+			],
+			[
+				"na",
+				"navigateTo"
+			],
+			[
+				"b",
+				"both\tclear"
+			],
+			[
+				"list",
+				"listQuery"
+			],
+			[
+				"lis",
+				"listQuery"
+			],
+			[
+				"pro",
+				"productId"
+			],
+			[
+				"order",
+				"orderStatus"
+			],
+			[
+				"pa",
+				"partnerId"
+			],
+			[
+				"co",
+				"condition"
+			],
+			[
+				"page",
+				"pageNum"
+			],
+			[
+				"date",
+				"dateInput"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"invi",
+				"InvitationDetail"
+			],
+			[
+				"fa",
+				"faceImageUrl"
+			],
+			[
+				"n",
+				"num"
+			],
+			[
+				"f",
+				"fixed\tposition"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pr",
+				"previousSibling"
+			],
+			[
+				"r",
+				"reload"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"ba",
+				"background-clip\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"us",
+				"userId"
+			],
+			[
+				"h",
+				"hidden\toverflow"
+			],
+			[
+				"p",
+				"pointer\tcursor"
+			],
+			[
+				"backg",
+				"background-position\tproperty"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"s",
+				"space-around\tjustify-content"
+			],
+			[
+				"spa",
+				"spaceAround"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"chec",
+				"checked"
+			],
+			[
+				"flex-",
+				"flex-start\tjustify-content"
+			],
+			[
+				"felx",
+				"flex-wrap\tproperty"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"open",
+				"openId"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"provider",
+				"provider_name"
+			],
+			[
+				"merchant",
+				"merchant_name"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"from",
+				"fromtimestamp\tfunction"
+			],
+			[
+				"tim",
+				"timestamp_utc_now\tfunction"
+			],
+			[
+				"u",
+				"utcfromtimestamp\tfunction"
+			],
+			[
+				"no",
+				"NOT"
+			],
+			[
+				"acc",
+				"account_id"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"st",
+				"store_id"
+			],
+			[
+				"cra",
+				"craftsman_id"
+			],
+			[
+				"crea",
+				"CREATE"
+			],
+			[
+				"create",
+				"date_created"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS - Compressed.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mdp",
+				"MdCodeBlock: Wrap Github Flavered Code Block"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git status",
+			"git pull",
+			"import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dongwujing/dev/newAudio/wx",
+		"/Users/dongwujing/dev/newAudio/wx/pages",
+		"/Users/dongwujing/dev/newAudio/wx/pages/vedio"
+	],
+	"file_history":
+	[
+		"/Users/dongwujing/dev/imgshow.html",
+		"/Users/dongwujing/dev/newAudio/wx/pages/img/index.wxml",
+		"/Users/dongwujing/dev/newAudio/wx/pages/img/index.js",
+		"/Users/dongwujing/dev/snake的副本.html",
+		"/Users/dongwujing/dev/newAudio/wx/app.json",
+		"/Users/dongwujing/dev/newAudio/wx/pages/audioDegist/index.js",
+		"/Users/dongwujing/dev/newAudio/wx/pages/audioDegist/index.wxml",
+		"/Users/dongwujing/dev/newAudio/wx/pages/audioDegist/index.wxss",
+		"/Users/dongwujing/dev/newAudio/wx/pages/index/index.wxml",
+		"/Users/dongwujing/dev/audioPage/pages/index/index.wxml",
+		"/Users/dongwujing/dev/newAudio/wx/app.wxss",
+		"/Users/dongwujing/dev/audioPage/app.json",
+		"/Users/dongwujing/dev/audioPage/pages/listDigetal/index.wxml",
+		"/Users/dongwujing/dev/fuxi/src/pages/index.vue",
+		"/Users/dongwujing/dev/audioCopy/index.html",
+		"/Users/dongwujing/dev/audioCopy/src/components/tabbaritem.vue",
+		"/Users/dongwujing/dev/audioCopy/src/components/tabbar.vue",
+		"/Users/dongwujing/dev/audioCopy/src/pages/tab5.vue",
+		"/Users/dongwujing/dev/audioCopy/src/pages/tab4.vue",
+		"/Users/dongwujing/dev/audioCopy/src/pages/tab3.vue",
+		"/Users/dongwujing/dev/audioCopy/src/pages/tab2.vue",
+		"/Users/dongwujing/dev/fuxi/src/components/tabbarItem.vue",
+		"/Users/dongwujing/dev/audioCopy/src/pages/index.vue",
+		"/Users/dongwujing/dev/audioCopy/src/components/HelloWorld.vue",
+		"/Users/dongwujing/dev/audioCopy/src/App.vue",
+		"/Users/dongwujing/dev/audioCopy/src/router/index.js",
+		"/Users/dongwujing/dev/h5Pages/index.html",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/public/index.html",
+		"/Users/dongwujing/dev/audioCopy/src/main.js",
+		"/Users/dongwujing/dev/audioCopy/src/store/index.js",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/home.vue",
+		"/Users/dongwujing/Desktop/2019年12月23-28周报.txt",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/api/baseurl.js",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/views/invoicemanage/invoicingRateManage.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/Improvepolicy.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/views/oilcard/oilcardmanagement.vue",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/views/oilcard/fuelconsumption.vue",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/views/invoicemanage/application.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/fuelconsumption.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/particulars.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/Insurancehomepage.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/claimsettlement.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/router/index.js",
+		"/Users/dongwujing/Desktop/SaleOutofstock_content.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/views/oilcard/oilcardmanagement2.vue",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/views/operation/usermanagement/commenComponents/identyUser.vue",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/views/operation/usermanagement/IdentityID.vue",
+		"/Users/dongwujing/dev/lcloud_web_oms/src/views/operation/usermanagement/IdentityManagement.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/api/site.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/oilcard/oilcardmanagement.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/oilcard/quotarecord.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/components/partner.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/platTemplate.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/areaZoneSelect.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/driverbalance.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/api/baseurl.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/zhaoyourecord.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/businessbalance.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/api/site.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/router/index.js",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/views/statistics/voucher.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/views/statistics/invite.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/views/statistics/InvitationDetail.vue",
+		"/Users/dongwujing/dev/lcloud_web_partner/src/views/oilcard/quotarecord.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/oilcard/QuotaRecord.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/statistics/commenComponents/InvitationDetail.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/router/index.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/statistics/voucher.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/statistics/invite.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/statistics/InvitationDetail.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/zhaoYouArgment.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_oms/src/views/oilcardmanage/platformtrading.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/policylist.vue",
+		"/Users/dongwujing/Desktop/2019年12月16-21周报.txt",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/vehiclemanagement/vehiclemanagement.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/InsuranceSuccess.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/orderDegistNoPay.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/components/navbar.vue",
+		"/Users/dongwujing/dev/insurance1/index.html",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/router/index.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/vue.config.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/package.json",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/.env.alpha",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/.env.prod",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/.gitignore",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/README.md",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/statistics/commenComponents/packageIInput.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/statistics/commenComponents/userDegiterSheetTwo.vue",
+		"/Users/dongwujing/Desktop/未命名文件夹/statistics/voucher.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/vehiclemanagement/commenComponents/packageIInput.vue",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/FreightCar/commenComponents/addCarInfo.vue",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/FreightCar/FreightCarManagement.vue",
+		"/Users/dongwujing/Desktop/未命名文件夹/vehiclemanagement/vehiclemanagement.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/vehiclemanagement/commenComponents/dataListHeader.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/moreParticulars.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/store/index.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_partner/src/views/freight/sourceofgoods/issue.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/views/insurance/addBankCard.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/main.js",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/api/site.js",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/freight/sourceofgoods/frequentsourcegood.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/freight/sourceofgoods/mysource.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/vehiclemanagement/vehiclemanagement.vue",
+		"/Users/dongwujing/dev/lcloud_webpartner/src/router/index.js",
+		"/Users/dongwujing/dev/inSure/lcloud_web_app/src/components/navHead.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/oilcard/oilcardmanagement.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/vehiclemanagement/commenComponents/dataListHeader.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/vehiclemanagement/commenComponents/packageIInput.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/vehiclemanagement/commenComponents/addCarInfo.vue",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/FreightCar/commenComponents/packageTTable.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/vehiclemanagement/commenComponents/modifyCarInfo.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/invite.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/packageIInput.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/voucher.vue",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/FreightCar/userList.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/InvitationDetail.vue",
+		"/Users/dongwujing/Desktop/invitate.html",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/FreightCar/InvitationStatistics.vue",
+		"/Users/dongwujing/dev/smart-logistics-cloud-web/src/components/FreightCar/VoucherStatistics.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/jumpPage.vue",
+		"/Users/dongwujing/Desktop/voucher.html",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/oilcard/tableTemplate.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/freight/sourceofgoods/issue.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/userDegiterSheetTwo.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/dataListHeader.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/packageTTable.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/identyUser.vue",
+		"/Users/dongwujing/dev/inSure/lcloud_webpartner/src/views/statistics/commenComponents/modifyCarInfo.vue"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"pageNum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/dongwujing/dev/huamanyi"
+		},
+		{
+			"path": "/Users/dongwujing/dev/newAudio/wx"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 429.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"eureka:"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"disabled"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,120 @@
+/**index.wxss**/
+.container{
+    padding:0 0rpx;
+    padding-top:360rpx;
+
+}
+.topfix{
+	position: fixed;
+	left:0;top:0;
+	z-index:3;
+	width:100%;
+}
+.headtop{
+	height:253rpx;
+	background-color:#F5FFFA;
+	border:1px solid #F5FFFA;
+	padding-left:250rpx;
+	position:relative;
+	font-size:24rpx;
+    line-height:50rpx;
+	font-color:#fff;
+	padding-right:10rpx;
+	
+	overflow: hidden;
+	
+	
+}
+.headtop image{
+	height:200rpx;
+	width:200rpx;
+	position:absolute;
+	left:21rpx;
+	top:21rpx;
+
+}
+.headMid{
+	height:100rpx;
+	color:#fff;
+	position:relative;
+	font-size:30rpx;
+	line-height:100rpx;
+	background-color:#6495ED;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	padding-left:10rpx;
+
+}
+.playPauseWrap{
+	
+	height:80rpx;
+	float:right;
+	margin-top:10rpx;
+}
+.playPause{
+	width:80rpx;
+	height:80rpx;
+	
+}
+.share{
+	width:80rpx;
+	height:80rpx;
+	position:absolute;
+	right:16rpx;top:10rpx;
+	
+}
+.playImg{
+	width:50rpx;
+	height:50rpx;
+	margin-top:22rpx;
+	float: right;
+}
+
+.headBot{
+	border-radius: 10rpx;
+	background-color:#fff;
+	line-height:80rpx;
+	font-size:30rpx;
+	
+}
+.headBot view{
+	
+	overflow: hidden;
+	height:80rpx;
+	padding:0 10rpx;
+	border-bottom:1px solid #ccc;
+	position:relative;
+}
+
+.jumpPage{
+	height:100rpx;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding:0 40rpx;
+	font-size:30rpx;
+	line-height:100rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
